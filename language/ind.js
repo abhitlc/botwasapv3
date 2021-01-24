@@ -82,7 +82,7 @@ exports.registered = (username, userage, serialUser, time, sender) => {
 	return`*「 COUNTRY DATA 」* \ n \ nyou have been registered with data \ n \ n┏━⊱name \ n┗⊱ $ {username} \ n┏━⊱number \ n┗⊱wa.me / $ {sender.split (" @ ") [0]} \ n┏━⊱age \ n┗⊱ $ {userage} \ n┏━⊱ registration time \ n┗⊱ $ {time} \ n \ n┏━❉ * NS * ❉━
 
 exports.cmdnf = (prefix, command) => {
-	return`command *${prefix}${command}* not found \ try to write*${prefix} menu* `
+	return`command *${prefix}${command}* tidak di temukan\coba tulis *${prefix}menu*`	
 }
 
 exports.owneresce = (pushname) => {
