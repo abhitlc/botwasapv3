@@ -19,11 +19,11 @@ exports.lvlnul = () => {
 }
 
 exports.lvlnoon = () => {
-	return`*LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*LEVEL in GRUB NOT ACTIVATED*`
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar affis|17*`
+	return`*「 YET NOT REGISTER 」*\n\n*how to register ${prefix}list name|age * \n*example ${prefix}list ABHI|18*`
 }
 
 exports.rediregis = () => {
